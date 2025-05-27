@@ -38,12 +38,11 @@ If using your own data, or if you want to change the name of the output files, a
 -output_file
 ```
 
-
-
 ## More information and citation
 
-More information on the files can be found in our paper. If you use any of the data please cite this paper:
-...
+More information on the files can be found in our paper. If you use any of the data please cite our paper:
+
+Freya Hewett and Manfred Stede. Disagreements in analyses of rhetorical text structure: A new dataset and first analyses. In Proceedings of the 19th Linguistic Annotation Workshop (LAW) at ACL. Vienna, 2025. (to appear).
 
 
 
