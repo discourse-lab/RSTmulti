@@ -1,8 +1,8 @@
 # RSTmulti
 
-Dataset and scripts for RSTmulti
+The corpus RSTmulti contains English and German texts which have two separate Rhetorical Structure Theory annotations, for the purpose of studying disagreement in the context of discourse structure. 
 
-Repository to accompany the The 19th Linguistic Annotation Workshop (LAW 2025) paper: [Disagreements in analyses of rhetorical text structure: A new dataset and first analyses](https://aclanthology.org/)
+Repository with the dataset and scripts used in the The 19th Linguistic Annotation Workshop (LAW 2025) paper: [Disagreements in analyses of rhetorical text structure: A new dataset and first analyses](https://aclanthology.org/)
 
 ## Data
 
