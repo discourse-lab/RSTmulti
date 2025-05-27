@@ -44,5 +44,18 @@ More information on the files can be found in our paper. If you use any of the d
 
 Freya Hewett and Manfred Stede. Disagreements in analyses of rhetorical text structure: A new dataset and first analyses. In Proceedings of the 19th Linguistic Annotation Workshop (LAW) at ACL. Vienna, 2025. (to appear).
 
+## License
+
+Shield: [![CC BY-SA 4.0][cc-by-sa-shield]][cc-by-sa]
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+
 
 
