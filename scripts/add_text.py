@@ -3,7 +3,7 @@ import os
 import re
 
 def create_edu_dict(corpus_path):
-    """ Creates a dictionary with each EDU for each file 
+    """ Creates a dictionary with each EDU for each file
         EDUs are in ascending order, starting at 1 """
     rst_files = os.listdir(corpus_path)
     all_edu_files = dict()
@@ -27,10 +27,6 @@ def create_edu_dict(corpus_path):
 def get_edu_text(c1,c2,a1,a2,filename,edu_dict):
     if c1 == "blank":
         return "blank", "blank"
-    #c1a = row['C1-A'] / B
-    #c2a = row['C2-A']
-    #a1a = row['A1-A']
-    #a2a = row['A2-A']
     span1 = [x for x in range(int(c1), (int(c2)+1))]
     span2 = [x for x in range(int(a1), (int(a2)+1))]
     span1text = ""
@@ -51,8 +47,7 @@ def get_edu_text(c1,c2,a1,a2,filename,edu_dict):
         return span1text, span2text
     if c1 > a1:
         return span2text, span1text
-    
-#corpus_path = "/Users/freya.hewett/Nextcloud/2024-RSTmulti/Corpus_Clean/1/"
+
 
 def add_edu_text(input_df, corpus_path):
     edu_dict = create_edu_dict(corpus_path)
