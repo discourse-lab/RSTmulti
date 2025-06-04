@@ -16,9 +16,6 @@ def concat_tace_dfs(tace_path):
     return all_df
 
 def get_edus_ordered(c_edus,a_edus):
-    #print("input", c_edus, a_edus)
-    #2311 --> left = [1] right =[2,3]
-    #c_edus = [2,3] a_edus = [1,1]
     #First find lowest number
     if c_edus[0] < a_edus[0]:
         left = c_edus
@@ -61,4 +58,3 @@ def create_tace_df(tace_path):
     final = add_span_length(concat)
 
     return final
-
